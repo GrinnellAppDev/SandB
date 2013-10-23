@@ -26,9 +26,9 @@ Github -- https://github.com/GrinnellAppDev
 
 ###Contributors
 Special Thanks to the Grinnell Appdev Team!
-*Colin Tremblay '14 (@tremblay)
-*Lea Marolt Sonnenschein '15 (@leamars)
-*David Cowden '13 (@dcow)
-*Patrick Triest '15 (@triestpa)
+* Colin Tremblay '14 (@tremblay)
+* Lea Marolt Sonnenschein '15 (@leamars)
+* David Cowden '13 (@dcow)
+* Patrick Triest '15 (@triestpa)
 
 For App Support, feedback, suggestions etc. please email appdev@grinnell.edu
