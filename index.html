@@ -10,7 +10,75 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>Sandb by GrinnellAppDev</title>
+    <style>
+    .center { display: block; margin-left: auto; margin-right: auto; text-align: center;}
+    .shadow {
+      -moz-box-shadow: 10px 10px 5px #888;
+      -webkit-box-shadow: 10px 10px 5px #888;
+      box-shadow: 10px 10px 5px #888;
+    }
+    .twist {
+      
+      transition-property: box-shadow, border-radius, transform:rotate;
+      transition-duration: 1s, 2s, 1s;
+      -moz-transition-property: -moz-box-shadow, -moz-border-radius, -moz-transform:rotate;
+      -moz-transition-duration: 1s, 2s, 1s;
+      -webkit-transition-property: -webkit-box-shadow, -webkit-border-radius, -webkit-transform:rotate;
+      -webkit-transition-duration: 1s, 2s, 1s;
+      -o-transition-property: -o-box-shadow, -o-border-radius, -o-transform:rotate;
+      -o-transition-duration: 1s, 2s, 1s;
+      -ms-transition-property: -ms-box-shadow, -ms-border-radius, -ms-transform:rotate;
+      -ms-transition-duration: 1s, 2s, 1s;
+
+    }
+    .twist:hover {
+      box-shadow: 0 0 4em 5em rgba(127,127,127,0.4);
+      transition-property: box-shadow, border-radius, transform:rotate;
+      transition-duration: 2s, 3s, 0.7s;
+      -moz-box-shadow: 0 0 4em 5em rgba(127,127,127,0.4);
+      -moz-transition-property: -moz-box-shadow, -moz-border-radius, -moz-transform:rotate;
+      -moz-transition-duration: 2s, 3s, 0.7s;
+      -webkit-box-shadow: 0 0 4em 5em rgba(127,127,127,0.4);
+      -webkit-transition-property: -webkit-box-shadow, -webkit-border-radius, -webkit-transform:rotate;
+      -webkit-transition-duration: 2s, 3s, 0.7s;
+      -o-box-shadow: 0 0 4em 5em rgba(127,127,127,0.4);
+      -o-transition-property: -o-box-shadow, -o-border-radius, -o-transform:rotate;
+      -o-transition-duration: 2s, 3s, 0.7s;
+      -ms-box-shadow: 0 0 4em 5em rgba(127,127,127,0.4);
+      -ms-transition-property: -ms-box-shadow, -ms-border-radius, -ms-transform:rotate;
+      -ms-transition-duration: 2s, 3s, 0.7s;
+
+      transform:rotate(2deg);
+      -moz-transform:rotate(2deg);
+      -webkit-transform:rotate(2deg);
+      -ms-transform:rotate(2deg);
+      -o-transform:rotate(2deg);
+    }
+    img.store {
+      width: 172px;
+    }
+
+    #and {
+      vertical-align: top;
+      margin-top: 1px;
+
+    }
+
+    #ios {
+      vertical-align: top;
+      padding-top: 0px;
+
+    }
+    .mbutton {
+      display: inline;
+      vertical-align: top;
+    }
+    </style>
+
+    <link href="favicon.png" rel="icon" type="image/png"> 
+    <link href="http://apps.g-licio.us/favicon.ico" rel="shortcut icon apple-touch-icon" />
+    
+    <title>S&amp;B by GrinnellAppDev</title>
   </head>
 
   <body>
@@ -18,59 +86,77 @@
       <div class="inner">
 
         <header>
-          <h1>Sandb</h1>
-          <h2>Static informational pages for the S&amp;B apps</h2>
+          <h1>S&amp;B</h1>
+          <h2>Grinnell College's Newspaper, the Scarlet &amp; Black</h2>
         </header>
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/GrinnellAppDev/SandB/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/GrinnellAppDev/SandB/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/GrinnellAppDev/SandB" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        <section id="downloads" class="clearfix center">
+          <div class="center">
+          <div class="mbutton" >
+            <a href="https://itunes.apple.com/us/app/s-b/id638912711?mt=8">
+              <img id="ios" class="store" alt="iOS app on the AppStore" src="http://apps.g-licio.us/images/app_store_badge_en.png" />
+            </a>
+          </div>
+          <div class="mbutton">
+            <a href="https://play.google.com/store/apps/details?id=edu.grinnell.sandb">
+              <img id="and" alt="Android app on Google Play" src="http://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
+            </a>
+          </div>
+        </div>
         </section>
 
         <hr>
 
         <section id="main_content">
+        <p><img class="center shadow twist" src="https://raw.github.com/GrinnellAppDev/SandB-iOS/master/SandB-iOS/SandB-iOS/iTunesArtwork.png" alt="S&B Splash"></p>
           <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<p>S&amp;B is a nicely formatted mobile news reader for Grinnell College's Scarlet &amp; Black newspaper. S&amp;B is fully supported on iOS and Android, and is optimized for both phone and tablet layouts.</p>
 
 <h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a name="get-sb" class="anchor" href="#get-sb"><span class="octicon octicon-link"></span></a>Get S&amp;B</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>S&amp;B is available for download at the following locations:</p>
 
 <h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<a name="application-packages" class="anchor" href="#application-packages"><span class="octicon octicon-link"></span></a>Application Packages</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<ul>
+<li><a href="https://itunes.apple.com/us/app/s-b/id638912711?mt=8">iOS</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=edu.grinnell.sandb">Android</a></li>
+</ul><h3>
+<a name="source" class="anchor" href="#source"><span class="octicon octicon-link"></span></a>Source</h3>
+
+<p>All of our source is licenced under the GPL-v3 and is available on Github:</p>
+
+<p>Github -- <a href="https://github.com/GrinnellAppDev">https://github.com/GrinnellAppDev</a></p>
 
 <h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<a name="contributors" class="anchor" href="#contributors"><span class="octicon octicon-link"></span></a>Contributors</h3>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<p>Special Thanks to the Grinnell Appdev Team!<br>
+<em>Colin Tremblay '14 (<a href="https://github.com/tremblay" class="user-mention">@tremblay</a>)</em><br>
+<em>Lea Marolt Sonnenschein '15 (<a href="https://github.com/leamars" class="user-mention">@leamars</a>)</em><br>
+<em>David Cowden '13 (<a href="https://github.com/dcow" class="user-mention">@dcow</a>)</em><br>
+<em>Patrick Triest '15 (<a href="https://github.com/triestpa" class="user-mention">@triestpa</a>)</em></p>
+
+<p>For App Support, feedback, suggestions etc. please email <a href="mailto:appdev@grinnell.edu">appdev@grinnell.edu</a></p>
         </section>
 
         <footer>
-          Sandb is maintained by <a href="https://github.com/GrinnellAppDev">GrinnellAppDev</a><br>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+          S&amp;B is maintained by <a href="https://github.com/GrinnellAppDev">GrinnellAppDev</a><br>
+          This page was partially generated by <a href="http://pages.github.com">GitHub Pages</a>.<br>
+          Based on the <em>Tactile</em> theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.<br>
+          Theme alterations and page content managed by <a href="https:github.com/tremblay">Colin Tremblay</a>.<br>
+          S&amp;B artwork and images created by <a href="https://github.com/leamars">Lea Marolt Sonnenschein</a>.<br>
+          Special thanks to <a href="http://www.dcow.me">David Cowden</a>.
         </footer>
 
-        
       </div>
     </div>
+    
+    <a href="https://github.com/GrinnellAppDev"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+    
   </body>
 </html>
